@@ -15,8 +15,9 @@ import java.util.Base64;
 public class Desencriptar {
     public static void main(String[] args) {
 
-        desencriptarConClavePublicaEmisor();
+
         desencriptarConClavePrivadaReceptor();
+        desencriptarConClavePublicaEmisor();
     }
     private static void desencriptarConClavePublicaEmisor() {
         try {

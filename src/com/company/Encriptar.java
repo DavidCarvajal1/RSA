@@ -58,7 +58,7 @@ public class Encriptar {
     private static void encriptarConClavePublicaReceptor() {
         try {
             //Obtenemos la clave privada del emisor
-            PublicKey publicKey = KeysManager.getClavePublica(KeysManager.PUBLIC_KEY_FILE_EMISOR);
+            PublicKey publicKey = KeysManager.getClavePublica(KeysManager.PUBLIC_KEY_FILE_RECEPTOR);
             //Leemos el fichero
             String texto = ManejadoraFicheros.leerFichero();
 
